@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC12A8501B782FE80055A455 /* ScrollView+ThreeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BC12A84F1B782FE80055A455 /* ScrollView+ThreeImage.m */; };
 		BCC846881B6A5B8800857237 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC846871B6A5B8800857237 /* main.m */; };
 		BCC8468B1B6A5B8800857237 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC8468A1B6A5B8800857237 /* AppDelegate.m */; };
 		BCC8468E1B6A5B8800857237 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC8468D1B6A5B8800857237 /* ViewController.m */; };
@@ -79,6 +80,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC12A84E1B782FE80055A455 /* ScrollView+ThreeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ScrollView+ThreeImage.h"; path = "../../../../杂七杂八/一些封装好的工具/ScrollView+ThreeImage.h"; sourceTree = "<group>"; };
+		BC12A84F1B782FE80055A455 /* ScrollView+ThreeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ScrollView+ThreeImage.m"; path = "../../../../杂七杂八/一些封装好的工具/ScrollView+ThreeImage.m"; sourceTree = "<group>"; };
 		BCC846821B6A5B8800857237 /* scrollViewAddPicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrollViewAddPicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC846861B6A5B8800857237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCC846871B6A5B8800857237 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -167,6 +170,8 @@
 		BCC846791B6A5B8800857237 = {
 			isa = PBXGroup;
 			children = (
+				BC12A84E1B782FE80055A455 /* ScrollView+ThreeImage.h */,
+				BC12A84F1B782FE80055A455 /* ScrollView+ThreeImage.m */,
 				BCC846841B6A5B8800857237 /* scrollViewAddPicture */,
 				BCC8469E1B6A5B8800857237 /* scrollViewAddPictureTests */,
 				BCC846831B6A5B8800857237 /* Products */,
@@ -437,6 +442,7 @@
 			files = (
 				BCC8468E1B6A5B8800857237 /* ViewController.m in Sources */,
 				BCC8468B1B6A5B8800857237 /* AppDelegate.m in Sources */,
+				BC12A8501B782FE80055A455 /* ScrollView+ThreeImage.m in Sources */,
 				BCC846881B6A5B8800857237 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -630,6 +636,7 @@
 				BCC846A71B6A5B8800857237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCC846A81B6A5B8800857237 /* Build configuration list for PBXNativeTarget "scrollViewAddPictureTests" */ = {
 			isa = XCConfigurationList;
@@ -638,6 +645,7 @@
 				BCC846AA1B6A5B8800857237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
